@@ -1,0 +1,281 @@
+[
+    {
+        "column": "",
+        "type": "IntegerType()",
+        "statistics": {
+            "count": 114000,
+            "mean": 56999.5,
+            "stddev": 32909.10968105944,
+            "min": 0.0,
+            "max": 113999.0
+        }
+    },
+    {
+        "column": "track_id",
+        "type": "StringType()",
+        "statistics": {
+            "distinct_count": 82129,
+            "top_values": [
+                {
+                    "value": "6S3JlDAGk3uu3NtZbPnuhS",
+                    "count": 9
+                },
+                {
+                    "value": "2Ey6v4Sekh3Z0RUSISRosD",
+                    "count": 8
+                },
+                {
+                    "value": "2kkvB3RNRzwjFdGhaUA0tz",
+                    "count": 8
+                }
+            ]
+        }
+    },
+    {
+        "column": "artists",
+        "type": "StringType()",
+        "statistics": {
+            "distinct_count": 32703,
+            "top_values": [
+                {
+                    "value": "The Beatles",
+                    "count": 279
+                },
+                {
+                    "value": "George Jones",
+                    "count": 271
+                },
+                {
+                    "value": "Stevie Wonder",
+                    "count": 236
+                }
+            ]
+        }
+    },
+    {
+        "column": "album_name",
+        "type": "StringType()",
+        "statistics": {
+            "distinct_count": 45788,
+            "top_values": [
+                {
+                    "value": "Alternative Christmas 2022",
+                    "count": 195
+                },
+                {
+                    "value": "Feliz Cumplea\u00f1os con Perreo",
+                    "count": 184
+                },
+                {
+                    "value": "Metal",
+                    "count": 143
+                }
+            ]
+        }
+    },
+    {
+        "column": "track_name",
+        "type": "StringType()",
+        "statistics": {
+            "distinct_count": 70227,
+            "top_values": [
+                {
+                    "value": "Run Rudolph Run",
+                    "count": 151
+                },
+                {
+                    "value": "Halloween",
+                    "count": 88
+                },
+                {
+                    "value": "Frosty The Snowman",
+                    "count": 81
+                }
+            ]
+        }
+    },
+    {
+        "column": "popularity",
+        "type": "IntegerType()",
+        "statistics": {
+            "count": 113866,
+            "mean": 33.25747808827921,
+            "stddev": 22.305611991797402,
+            "min": 0.0,
+            "max": 100.0
+        }
+    },
+    {
+        "column": "duration_ms",
+        "type": "LongType()",
+        "statistics": {
+            "count": 113964,
+            "mean": 227862.5020445053,
+            "stddev": 107405.90168928802,
+            "min": 0.0,
+            "max": 5237295.0
+        }
+    },
+    {
+        "column": "explicit",
+        "type": "BooleanType()",
+        "statistics": {
+            "true_count": 9747,
+            "false_count": 104119,
+            "null_count": 134
+        }
+    },
+    {
+        "column": "danceability",
+        "type": "DoubleType()",
+        "statistics": {
+            "count": 113893,
+            "mean": 31.798216588376846,
+            "stddev": 2786.30072253283,
+            "min": 0.0,
+            "max": 549809.0
+        }
+    },
+    {
+        "column": "energy",
+        "type": "DoubleType()",
+        "statistics": {
+            "count": 113967,
+            "mean": 3.326008399599874,
+            "stddev": 647.3986692005657,
+            "min": 0.0,
+            "max": 175066.0
+        }
+    },
+    {
+        "column": "key",
+        "type": "IntegerType()",
+        "statistics": {
+            "count": 113870,
+            "mean": 6.763835953280056,
+            "stddev": 490.26780486254177,
+            "min": 0.0,
+            "max": 165440.0
+        }
+    },
+    {
+        "column": "loudness",
+        "type": "DoubleType()",
+        "statistics": {
+            "count": 113995,
+            "mean": 0.05128661730773746,
+            "stddev": 1723.6389524006324,
+            "min": -49.531,
+            "max": 471050.0
+        }
+    },
+    {
+        "column": "mode",
+        "type": "IntegerType()",
+        "statistics": {
+            "count": 113893,
+            "mean": 2.4303337342944693,
+            "stddev": 604.753481456166,
+            "min": 0.0,
+            "max": 204093.0
+        }
+    },
+    {
+        "column": "speechiness",
+        "type": "DoubleType()",
+        "statistics": {
+            "count": 113996,
+            "mean": 1.0604133478367488,
+            "stddev": 330.9303651179334,
+            "min": -40.046,
+            "max": 111733.0
+        }
+    },
+    {
+        "column": "acousticness",
+        "type": "DoubleType()",
+        "statistics": {
+            "count": 113997,
+            "mean": 0.313989349480426,
+            "stddev": 0.34755933657867805,
+            "min": -23.089,
+            "max": 20.0
+        }
+    },
+    {
+        "column": "instrumentalness",
+        "type": "DoubleType()",
+        "statistics": {
+            "count": 114000,
+            "mean": 1.584854351802899,
+            "stddev": 482.17163282937076,
+            "min": -15.988,
+            "max": 162800.0
+        }
+    },
+    {
+        "column": "liveness",
+        "type": "DoubleType()",
+        "statistics": {
+            "count": 113999,
+            "mean": 2.701621193663078,
+            "stddev": 614.7802522287266,
+            "min": -22.185,
+            "max": 179626.0
+        }
+    },
+    {
+        "column": "valence",
+        "type": "DoubleType()",
+        "statistics": {
+            "count": 113998,
+            "mean": 0.47391282564869225,
+            "stddev": 0.2644267741711888,
+            "min": -16.853,
+            "max": 2.0
+        }
+    },
+    {
+        "column": "tempo",
+        "type": "DoubleType()",
+        "statistics": {
+            "count": 114000,
+            "mean": 122.0235778473682,
+            "stddev": 30.244475546628724,
+            "min": -16.92,
+            "max": 243.372
+        }
+    },
+    {
+        "column": "time_signature",
+        "type": "IntegerType()",
+        "statistics": {
+            "count": 113868,
+            "mean": 3.904257561386869,
+            "stddev": 0.43175497414635605,
+            "min": 0.0,
+            "max": 5.0
+        }
+    },
+    {
+        "column": "track_genre",
+        "type": "StringType()",
+        "statistics": {
+            "distinct_count": 159,
+            "top_values": [
+                {
+                    "value": "alternative",
+                    "count": 1000
+                },
+                {
+                    "value": "anime",
+                    "count": 1000
+                },
+                {
+                    "value": "death-metal",
+                    "count": 1000
+                }
+            ]
+        }
+    }
+]
